@@ -16,6 +16,9 @@ import * as Drawer from './components/Drawer/Drawer';
 export { List, Drawer };
 
 export { default as BottomNavigation } from './components/BottomNavigation';
+export {
+  default as BottomSheetBehaviour,
+} from './components/BottomSheetBehaviour';
 export { default as Button } from './components/Button';
 export { default as Card } from './components/Card/Card';
 export { default as Checkbox } from './components/Checkbox';

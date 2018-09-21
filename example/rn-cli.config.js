@@ -12,7 +12,14 @@ module.exports = {
     return [__dirname, path.resolve(__dirname, '..')];
   },
   getProvidesModuleNodeModules() {
-    return ['react-native', 'react', '@expo/vector-icons', ...dependencies];
+    return [
+      'react-native',
+      'react',
+      '@expo/vector-icons',
+      'react-native-reanimated',
+      'react-native-gesture-handler',
+      ...dependencies,
+    ];
   },
   getBlacklistRE() {
     return blacklist([

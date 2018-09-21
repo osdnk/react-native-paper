@@ -26,6 +26,7 @@ import TextExample from './TextExample';
 import TextInputExample from './TextInputExample';
 import TouchableRippleExample from './TouchableRippleExample';
 import type { Theme } from 'react-native-paper/types';
+import BottomSheetBehaviourExample from './BottomSheetBehaviourExample';
 
 type Props = {
   theme: Theme,
@@ -35,6 +36,7 @@ type Props = {
 export const examples = {
   appbar: AppbarExample,
   bottomNavigation: BottomNavigationExample,
+  bottomSheet: BottomSheetBehaviourExample,
   button: ButtonExample,
   card: CardExample,
   checkbox: CheckboxExample,
